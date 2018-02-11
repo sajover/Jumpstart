@@ -27,6 +27,9 @@ img {
 
 .jumbotron.jumbotron-bike{
   background-image: url(/Users/sajover/Documents/Proyectos/Jumpstart/resources/images/jumbotron-bike.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 11.85rem;
   text-align: center;
   display: flex;
@@ -44,5 +47,21 @@ h1 {
 
 p {
   width: 51.3rem;
+  margin: 2.8rem;
+}
 
+.btn {
+  padding: 1.3rem;
+  width: 11.4rem;
+  text-align: center;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover{
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+/* BUG: REVISAR */
+.btn:active{
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
