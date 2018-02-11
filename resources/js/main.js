@@ -8,7 +8,4 @@ $(document).ready(function(){
     pauseOnFocus: false,
     pauseOnHover: false,
   });
-
-var lastScrollTop = 0;
-
 });
