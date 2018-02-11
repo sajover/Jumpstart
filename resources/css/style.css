@@ -4,9 +4,6 @@ body {
   color: rgba(0, 0, 0, 0.7);
 }
 
-div {
-  border: 1px solid green;
-}
 li {
   font-weight: bold;
   font-size: 1.1rem;

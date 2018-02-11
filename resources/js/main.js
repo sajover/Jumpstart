@@ -7,6 +7,8 @@ $(document).ready(function(){
     draggable: false,
     pauseOnFocus: false,
     pauseOnHover: false,
-
   });
+
+var lastScrollTop = 0;
+
 });
