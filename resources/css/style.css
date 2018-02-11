@@ -60,17 +60,29 @@ h3 {
   font-weight: bold;
 }
 
-.jumbotron p {
-  width: 51.3rem;
-  margin: 2.8rem 0rem;
+h4 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 1.4rem;
+
 }
 
-.btn {
+.jumbotron p {
+  width: 51.3rem;
+}
+
+
+
+.btn-primary{
   padding: 1.3rem;
-  width: 11.4rem;
   text-align: center;
   background-color: #399bd1;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  margin: 2.8rem;
+}
+
+.jumbotron .btn-primary{
+  width: 11.4rem;
 }
 
 .btn:hover{
@@ -106,4 +118,20 @@ img {
 .product-categories li {
   line-height: 1.4rem;
   color: rgba(0, 0, 0, 0.7);
+}
+
+.having-trouble-banner{
+  text-align: center;
+  padding: 5.2rem;
+  background-color: #f3f3f3;
+  margin-top:5.85rem;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.having-trouble-banner p{
+    width: 42rem;
+
 }
