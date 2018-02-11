@@ -4,6 +4,9 @@ body {
   color: rgba(0, 0, 0, 0.7);
 }
 
+div {
+  border: 1px solid green;
+}
 li {
   font-weight: bold;
   font-size: 1.1rem;
@@ -45,9 +48,21 @@ h1 {
   font-size: 7.1rem;
 }
 
-p {
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+  margin: 20px 50px;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.jumbotron p {
   width: 51.3rem;
-  margin: 2.8rem;
+  margin: 2.8rem 0rem;
 }
 
 .btn {
@@ -64,4 +79,31 @@ p {
 /* BUG: REVISAR */
 .btn:active{
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.featured-project {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.image-container img {}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.product-categories h3 {
+  color:#399bd1;
+}
+
+.product-categories li {
+  line-height: 1.4rem;
+  color: rgba(0, 0, 0, 0.7);
 }
