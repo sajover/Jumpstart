@@ -43,6 +43,20 @@ img {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+@media only screen and (max-widht:760px){
+  .jumbotron.jumbotron-bike{
+    padding: 8rem;
+  }
+  h1  {
+      font-size: 5.7rem;
+  }
+  img.navbar-brand.navbar-right.navbar-collapse{
+    display: none;
+  }
+
+}
+
+
 h1 {
   font-family: "Monoton";
   font-size: 7.1rem;
@@ -124,11 +138,14 @@ img {
   text-align: center;
   padding: 5.2rem;
   background-color: #f3f3f3;
-  margin-top:5.85rem;
   display: flex;
   flex-direction:column;
   justify-content: center;
   align-items: center;
+}
+
+.container.projects p {
+  margin-bottom: 5.85rem;
 }
 
 .having-trouble-banner p{
